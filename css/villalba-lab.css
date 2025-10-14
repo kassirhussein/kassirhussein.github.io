@@ -112,3 +112,8 @@
 	pointer-events: none;
 	opacity: 0.7;
 }
+
+/* === Custom background color === */
+body {
+  background-color: #cfe8ff; /* light blue */
+}
