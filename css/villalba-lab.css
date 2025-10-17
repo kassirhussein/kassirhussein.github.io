@@ -21,6 +21,13 @@
 }
 
 /* Publications */
+
+.project-image {
+  width: 50%;         /* adjust as needed */
+  max-width: 400px;   /* optional: never exceed 400px */
+  margin: 0 auto;     /* center the image */
+}
+
 .img-journal-cover {
 	height:200px ;
 }
