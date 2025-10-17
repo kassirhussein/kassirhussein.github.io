@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Experience – Hussein Kassir">
+  <meta name="author" content="Hussein Kassir">
+  <title>Experience – Hussein Kassir</title>
+
+  <!-- CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/villalba-lab.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Hussein Kassir <small class="hidden-sm hidden-xs"> - QMUL, London</small>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="height:30px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li class="active"><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading -->
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header">Experience
+          <small>Professional and Research Roles</small>
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">Experience</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Timeline Section -->
+    <section id="experience">
+      <div class="timeline">
+
+        <!-- Role 1 -->
+        <article class="card timeline-item">
+          <div class="date">Mar 2025 – Jul 2025</div>
+          <div class="content">
+            <h3><i class="fa fa-flask"></i> Genomic Data Scientist — Queen Mary University of London</h3>
+            <p class="muted">Project: <em>Functional Genomics & Drug Target Analysis</em></p>
+            <ul class="bullets">
+              <li>Processed large-scale phenotypic and genotypic datasets (IMPC, Open Targets) using Python, R, and Unix shell scripting.</li>
+              <li>Transformed and harmonised data (gene symbols, Ensembl IDs) in R to ensure accuracy in downstream analyses.</li>
+              <li>Delivered project insights through regular presentations to communicate results to supervisors and collaborators.</li>
+              <li>Engineered reproducible data pipelines with Git version control, supporting collaboration with bioinformaticians and researchers.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Role 2 -->
+        <article class="card timeline-item">
+          <div class="date">Jun 2024 – Dec 2024</div>
+          <div class="content">
+            <h3><i class="fa fa-dna"></i> Postgraduate Research Assistant — Queen Mary University of London</h3>
+            <p class="muted">Project: <em>Genotype–Phenotype Correlations in Neurodevelopmental Disorders</em></p>
+            <ul class="bullets">
+              <li>Performed quality control on a cohort of over 4,000 patient genomic datasets, identifying and removing duplicate family IDs.</li>
+              <li>Applied variant annotation tools (VEP, Exomiser) to WES/WGS data, refining classifications following ACMG guidelines.</li>
+              <li>Mapped genotype–phenotype correlations against curated disease panels (PanelApp) to support scientific discovery.</li>
+              <li>Introduced a variant analysis pipeline using Ensembl VEP to re-evaluate variants of unknown significance (VUS).</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Role 3 -->
+        <article class="card timeline-item">
+          <div class="date">Apr 2022 – Dec 2023</div>
+          <div class="content">
+            <h3><i class="fa fa-medkit"></i> Chief Pharmacist — Ezeldin Pharmacy, Beirut, Lebanon</h3>
+            <ul class="bullets">
+              <li>Supervised two pharmacy staff to ensure accurate dispensing of medications and compliance with clinical standards.</li>
+              <li>Reviewed sales and expense reports, providing actionable feedback to management to optimise operations.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Role 4 -->
+        <article class="card timeline-item">
+          <div class="date">Sep 2019 – Mar 2022</div>
+          <div class="content">
+            <h3><i class="fa fa-user-md"></i> Assistant Pharmacist — Ezeldin Pharmacy, Beirut, Lebanon</h3>
+            <ul class="bullets">
+              <li>Provided clinical advice to 30+ patients daily on illnesses, treatments, and medication use.</li>
+              <li>Enhanced patient satisfaction scores by 15% through improved consultation and follow-up care.</li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Download CV Button -->
+      <p style="margin-top:30px;">
+        <a class="btn btn-default" href="Hussein_Kassir_CV.pdf" target="_blank">
+          <i class="fa fa-file-pdf-o"></i> Download CV
+        </a>
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col-lg-12">
+          <p>© <span id="year"></span> Hussein Kassir · <a href="#top">Back to top</a></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
