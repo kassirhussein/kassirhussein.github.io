@@ -28,6 +28,15 @@
   margin: 0 auto;     /* center the image */
 }
 
+.project-image { width: 50%; max-width: 480px; margin: 0 auto; }
+
+.image-credit { text-align: right; margin-right: 20px; font-size: 0.9em; color: #555; }
+
+.image-credit a { color: var(--brand); text-decoration: none; }
+
+.image-credit a:hover { text-decoration: underline; }
+
+
 .img-journal-cover {
 	height:200px ;
 }
